@@ -15,4 +15,5 @@ Feel free to customize the loader's appearance by modifying the CSS styles in th
 For more information and examples, [visit](https://sahil1036.github.io/justfunLoader/).
 
 **sahil**
+
 ---
