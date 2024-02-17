@@ -1,0 +1,329 @@
+.loading {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.loader {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-top: 5px dotted black;
+    border-bottom: 5px dotted black;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    animation: rotation 0.8s ease-in infinite;
+}
+
+.loader1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px dotted black;
+    animation: rotation 0.8s ease-in infinite;
+}
+
+.loader2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-top: 5px double black;
+    border-bottom: 5px double black;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    animation: rotation 0.8s ease-in infinite;
+}
+
+.loader3 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-top: 5px solid black;
+    border-left: 4px solid black;
+    border-bottom: 5px dotted black;
+    border-right: 4px dotted transparent;
+    animation: rotation 0.7s ease-in infinite;
+}
+
+.loader4 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    animation: rotation 0.7s ease-in infinite;
+}
+
+.loader5 {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: inline-block;
+    border-top: 4px solid #000000;
+    border-right: 4px solid transparent;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+}
+
+.loader5::after {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border-left: 4px solid #ff3d00;
+    border-bottom: 4px solid transparent;
+    animation: rotation 0.5s linear infinite reverse;
+}
+
+.loader6 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px double black;
+    border-top: 5px double transparent;
+    animation: rotation 0.8s ease-in infinite;
+}
+
+.loader7 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid black;
+    border-top: 5px double transparent;
+    animation: rotation 0.8s ease-in infinite;
+}
+
+.loader8 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px dotted black;
+    border-top: 5px double transparent;
+    animation: rotation 0.8s ease-in infinite;
+}
+
+.loader9 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-top: 5px double black;
+    border-left: 4px double black;
+    border-bottom: 5px dotted black;
+    border-right: 4px dotted transparent;
+    animation: rotation 0.7s ease-in infinite;
+}
+
+.loader10 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-top: 4px double black;
+    border-left: 3px solid black;
+    border-bottom: 5px solid black;
+    border-right: 4px dotted black;
+    animation: rotation 0.7s ease-in infinite;
+}
+
+.loader11 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-top: 5px dotted black;
+    border-right: 4px dotted black;
+    border-bottom: 3px solid black;
+    border-left: 2px solid black;
+    animation: rotation 1s ease-in-out infinite;
+}
+
+.loader12 {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    border: 5px dotted black;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    animation: rotation 0.7s ease-in infinite;
+}
+
+.loader13 {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    border: 5px dotted black;
+    border-top: 5px solid transparent;
+    animation: rotation 0.7s ease-in infinite;
+}
+
+.loader14 {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    border: 3px solid black;
+    animation: rotation 1s ease-in infinite;
+}
+
+.loader14::before {
+    content: "";
+    position: absolute;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    width: 55px;
+    height: 55px;
+    border-radius: 30px;
+    border: 3px solid black;
+}
+
+.loader15 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-top: 5px dotted black;
+    border-bottom: 5px dotted black;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    animation: rotation 0.8s ease-in infinite;
+}
+
+.loader16 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-top: 5px dotted black;
+    border-bottom: 5px solid black;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    animation: rotation 0.8s ease-in infinite;
+}
+
+.loader17 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-top: 5px dotted black;
+    border-bottom: 5px dotted black;
+    border-left: 3px dotted red;
+    border-right: 3px dotted red;
+    animation: rotation 0.8s ease-in infinite;
+}
+
+.loader18 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid black;
+    border-top: none;
+    border-bottom: none;
+    animation: rotation 0.8s ease-in infinite;
+}
+
+.loader19 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid black;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    animation: rotation 0.8s ease-in infinite;
+}
+
+.loader19::before {
+    content: "";
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+    border: 5px solid red;
+    box-sizing: border-box;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    animation: rotation 0.4s ease-in 0.4s infinite reverse;
+}
+
+.loader20 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid black;
+    border-top: none;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid transparent;
+    animation: rotation 0.8s ease-in infinite;
+}
+
+.loader20::before {
+    content: "";
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+    border: 5px solid red;
+    box-sizing: border-box;
+    border-top: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: none;
+    animation: rotation 0.4s ease-in 0.4s infinite;
+}
+
+.loader21 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    border-top: none;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid transparent;
+    animation: rotation 0.8s ease-in infinite;
+}
+
+.loader21::before {
+    content: "";
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+    border: 5px solid red;
+    box-sizing: border-box;
+    border-top: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: none;
+    animation: rotation 0.4s ease-in 0.4s infinite;
+}
+
+.loader21::after {
+    content: "";
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+    border: 5px solid black;
+    box-sizing: border-box;
+    border-top: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: none;
+    animation: rotation 0.2s ease-in 0.2s infinite;
+}
+
+div {
+    margin: 20px;
+}
+
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
